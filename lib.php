@@ -530,6 +530,7 @@ function wwassignment_update_dirty_sets() {  // update grades for all instances 
 	// Then create a hash with wwassignment->id  => timemodified
 	// means just one database lookup
     $counter = 0;
+
 	$logRecords = get_logs("l.module LIKE \"wwassignment\" AND l.time >$lastcron ", null, "l.time ASC",'','', $counter);
 	$wwmodtimes=array();
 	foreach ($logRecords as $record) {     
