@@ -1,0 +1,16 @@
+{
+  "name":"mgage/wwassignment",
+  "description" : "Moodle integration with WeBWorK",
+  "license": "MIT",
+  "type": "moodle-mod",
+  "authors": [
+    {
+      "name": "Michael Gage",
+      "email": "mgage@test.edu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  }
+}
